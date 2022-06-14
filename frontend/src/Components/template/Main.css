@@ -1,0 +1,22 @@
+main > div { /* dentro de main vai ter uma div*/
+    background-color: #FFF;
+    box-shadow: 0px 0px 15px #0004;
+}
+
+/*
+Sintaxe da propriedade box-shadow é:
+box-shadow: [inset][h-offset][v-offset][blur][spread][color];
+
+No qual:
+
+inset: não é obrigatório e deve ser utilizado para indicar que a projeção da sombra será direcionada para dentro do elemento. Caso seja omitido, o valor padrão será considerado como outset, em que a sombra é projetada para a parte externa do elemento;
+h-offset: indica a distância em relação ao elemento e ao eixo horizontal em que a sombra será projetada;
+v-offset: funciona como o atributo anterior, porém, em relação ao eixo vertical;
+blur: indica o quanto a sombra terá o efeito borrado e é visualizado em todos os lados do elemento;
+spread: representa a extensão do tamanho da sombra;
+color: determina a cor da sombra.
+
+
+
+
+*/

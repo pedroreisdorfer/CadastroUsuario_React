@@ -1,0 +1,12 @@
+/* */
+header.header {
+    background-color: #FFF;
+    padding: 0px 15px; /* a sequencia do padding é cima, direita, baixo, esquerda*/
+    overflow: hidden; /* esconde caso a tela for diminuída. Se não ter isso, ao diminuir a tela, a palavra React ficará sobre conteúdo*/
+    white-space: nowrap;
+    box-shadow: var(--shadow); /* da um certo destaque 3d com sombra*/
+}
+
+header.header h1 {
+    font-size: 1.8em;
+}
